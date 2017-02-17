@@ -1,0 +1,337 @@
+/* fffffffffffffffff FONTS ffffffffffffffffff*/
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+/* ========================= GENERAL CLASSES AND SELECTORS ========================== */
+.container-fluid {
+	padding: 0 45px 0 45px;
+}
+.wraper {
+	padding: 0 20px 0 20px;
+}
+.redBackground {
+	background-color: rgb(242,102,73);
+}
+
+.lightRedBack {
+	background-color: rgb(255,238,203);
+}
+
+.BiegeBack {
+	background-color: rgb(238,247,226);
+}
+
+.lighBlueBack {
+	background-color: rgb(217,244,250);
+}
+
+.headerFont {	
+	/*font-weight: 600;*/
+	font-size: 5vw;
+}
+.FjalaFont {
+	font-family: 'Fjalla One', sans-serif;
+}
+.headerFont2{
+	font-size: 3rem;
+}
+
+.blueText {
+	color: rgb(1,148,211);
+}
+
+.inline {
+	display: inline;
+}
+
+.leftSide, .rightSide {
+	/*padding: 10px;
+	margin: 10px;*/
+	margin: 100px 0;
+}
+
+.redHeader {
+	font-family: 'Fjalla One', sans-serif;
+	color: rgb(242,102,73);
+	text-transform: uppercase;
+}
+.redText {
+	color: rgb(242,102,73) !important;
+}
+.whiteText {
+	color: white !important;
+}
+.marginTop {
+	margin: 10px 0;
+}
+
+.roundedBorder {
+	border-radius: 15px;
+	border: 1px solid RGB(240,240,240);
+	padding:15px;
+	margin-bottom: 15px;
+}
+
+/* _____________________________________________________________________________ */
+
+
+
+body {
+	background-color: white;
+	/*color: RGB(238,204,146);*/
+	color: RGB(40,40,40);
+	line-height: 1.4;
+	/*font-size: 100%;*/
+}
+
+
+p {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.anchorInsidePage {
+width: 0;
+height: 0;
+padding: 0;
+margin: 0;
+-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+border: none;
+display: none;
+display: block !important;
+}
+
+.padding-destroy {
+	padding: 0px !important;
+}
+
+/* <><><><><><><><><><><><> HEADER <><><><><><><><><><><><>*/
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~  Small banner  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.headerBanner {
+	margin-top:70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right:50px;
+	height: 270px;
+	color: white;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~  Bulb  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+	.svgLampImgWraper {
+		/*margin: 0 0 0 15%;*/
+		margin-left: 15%;
+		height: 25vh;
+	}
+
+	.iconic-lightbulb {
+	  cursor: pointer;
+	}
+
+	.iconic-lightbulb * {
+	  transition: 0.4s;
+	}
+
+	.iconic-lightbulb .icon-container {
+	  /*fill: #fff;*/
+	  /*stroke-width: 6;*/
+	  /*stroke: #fff;*/
+	  transition: 1.5s;
+	}
+
+	.iconic-lightbulb .iconic-lightbulb-light * {
+	  stroke-width: 16;
+	  stroke: #ddd;
+	  fill: none;
+	  stroke-linecap: round;
+	  stroke-linejoin: round;
+	}
+
+	.iconic-lightbulb .iconic-lightbulb-base {
+	  fill: #ddd;
+	}
+
+	.iconic-lightbulb .iconic-lightbulb-screws * {
+	  fill: none;
+	  stroke-width: 16;
+	  stroke: #ddd;
+	  stroke-linecap: round;
+	  stroke-linejoin: round;
+	}
+
+	/* STEP 1: Fade in the background circle on :hover */
+	
+	/*.iconic-lightbulb:hover .icon-container {
+		fill: #2e2e2e;
+		r: 350;
+	}*/
+	/* STEP 2: Enlarge the radius slightly on :hover */
+	.iconic-lightbulb:hover .iconic-lightbulb-light * {
+		stroke: #fc0;
+		stroke-width: 32;
+	}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~  Navigation  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+nav.navbar {
+	height: 70px;
+	transition: 0.2s;
+}
+a.navbar-brand {
+	margin-top: 5px;
+	transition: 0.2s;
+}
+a.navbar-brand:hover {
+	color: rgb(242,102,73) !important;
+}
+button.navbar-toggle {
+	border: 1px solid rgb(242,102,73) !important;
+}
+button.navbar-toggle::focus {
+	background-color: white !important;
+}
+span.icon-bar {
+	background-color: RGB(60,60,60) !important;
+}
+
+nav.navbar, footer {
+	border: none;
+	background-color: RGBA(252,252,252,1) ;
+}
+nav.navbar a {
+	color: RGB(25,25,25) !important;
+	transition: 0.2s;
+	background-color: RGBA(250,250,250,0.9) ;
+}
+
+nav.navbar .navbar-nav a:hover, nav.navbar  li.active {
+	/*background-color: rgb(242,102,73) !important;*/
+	border-radius: 0;
+	border-bottom: 3px solid rgb(242,102,73);
+	color: rgb(242,102,73) !important;
+}
+/* <><><><><><><><><><><><> end of HEADER <><><><><><><><><><><><>*/
+
+div#useCalcBox {
+	border: none;
+	margin-top: 60px;
+}
+
+
+
+/* []{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()
+[]{}()[]{}()[]{}()[]{}()[]{}()  INDEX.HTML  []{}()[]{}()[]{}()[]{}()[]{}()
+[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}() */
+
+
+/* ====================================================== RIGHT SIDE YOUR BILL PAGE 
+=================================================================================*/
+img#svgBill {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 40px;
+
+	/* =========== shadow ========= */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=17, Direction=0, Color=#353535)";/*IE 8*/
+	-moz-box-shadow: 0 0 17px 6px rgba(53,53,53,0.8);/*FF 3.5+*/
+	-webkit-box-shadow: 0 0 17px 6px rgba(53,53,53,0.8);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	box-shadow: 0 0 17px 6px rgba(53,53,53,0.8);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=17, Direction=135, Color=#353535); /*IE 5.5-7*/
+}
+
+div#learnMore {
+	margin-top: 25px;
+	outline: 1px solid black;
+}
+img#Arrow1 {
+	margin: 10px 10px 0 0;
+	height: 30px;
+	padding: 0;
+}
+div#LearnMoreWrap {
+	padding: 0;
+	margin: 0;
+}
+
+div#billCalc {
+	display: flex;
+	margin-top: 15px;
+	align-items: flex-end;
+	justify-content: center;
+}
+div#billCalc p {
+	padding-bottom: 10px;
+	padding-left:0;
+}
+
+/* ====================================================== FOOTER  
+=================================================================================*/
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+footer #OEB {
+	display: flex;
+	align-items: center;
+}
+footer #OEB img {
+	width: 100px;
+}
+footer #OEB p {
+	font-size: 1.5rem;
+	color: black;
+}
+
+
+/* []{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()
+[]{}()[]{}()[]{}()[]{}()[]{}()  USEFULINFO.HTML  []{}()[]{}()[]{}()[]{}()[]{}()
+[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}()[]{}() */
+
+/* ######################## HEADER #######################*/
+section#headerContinue {
+	height: 500px;
+	margin-top:0;
+}
+
+section#headerContinue img {
+	padding-right: 0;
+	height: 70px;
+}
+
+section#headerContinue #beAnInformed {
+	padding-left: 0;
+}
+
+/* ######################## TEXT #######################*/
+
+article.TimeOfUse  {
+	margin: 25px 0 0 0;
+}
+article.TimeOfUse img {
+	padding-right: 0;
+	height: 70px;
+}
+
+section.beAnInformed {
+	padding: 0;
+}
+
+/* ######################## Infographics #######################*/
+div.borderRightRed {
+	border-right: 1px solid rgb(242,102,73);
+	padding-right: 0; 
+	padding-left: 15px !important;
+}
+
+p.right {
+	text-align: right;
+}
+     
